@@ -1,3 +1,19 @@
+@media (max-width: 1000px) {
+    nav{
+        display: block;
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+        font-size: small;
+    }
+    nav img{
+        display: block;
+    }
+    nav p{
+        width: 100%;
+        display:inline;
+    }
+}
 .fast{
     font-size: 20px;
     margin-top: 100px;
@@ -28,6 +44,12 @@
 #left{
     text-align: left;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+#left .involve , .hhh{
+    flex: 1;
 }
 #left h1{
     color: brown;
@@ -35,7 +57,7 @@
 #left p{
     font-size: 25px;
     font-weight: bold;
-    padding-right:50%;
+    padding-right:10%;
 }
 #left .div p{
     font-weight: lighter;
