@@ -20,6 +20,31 @@ nav{
     align-items: center;
     height: 80px;
 }
+@media (min-width: 250px) {
+    nav{
+        display: block;
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+        font-size: small;
+    }
+}    
+@media (max-width: 1000px) {
+    nav{
+        display: block;
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+        font-size: small;
+    }
+    nav img{
+        display: block;
+    }
+    nav p{
+        width: 100%;
+        display:inline;
+    }
+}
 nav #icon{
     cursor: pointer ;
     margin-left: 0;
