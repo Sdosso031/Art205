@@ -1,3 +1,19 @@
+@media (max-width: 1000px) {
+    nav{
+        display: block;
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+        font-size: small;
+    }
+    nav img{
+        display: block;
+    }
+    nav p{
+        width: 100%;
+        display:inline;
+    }
+}
 .enroll{
     text-align: center;
 }
